@@ -40,7 +40,7 @@ var chocolateBars = [
   }
   
   function removeElementFromBeginningOfArray (chocolateBars) {
-    chocolateBars.slice(0)
+    var x = chocolateBars.slice()
     return chocolateBars
   }
   
